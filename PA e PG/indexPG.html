@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcular PG</title>
+    <script src="js/scriptPG.js"></script>
+    
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+        }
+        .container {
+            width: 800px;
+            height: 650px;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 50px;
+            background-color: rgb(13, 55, 94);
+            border: 1px solid #ccc;
+            border-radius: 4rem;
+        }
+        a {
+            color: white;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            color: #ffffff;
+            padding: 5px;
+            background-color: #14436e;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #a70f29;
+            color: #ffffff;
+            border: none;
+            border-radius: 3rem;
+            cursor: pointer;
+        }
+        div {
+            color: white;
+        }
+
+    </style>
+
+    <div class="container">
+
+        <a href = "index.html">Voltar</a>
+        <h1>Calcular PG</h1>
+        <h4>an = a1. q>n−1</h4>
+        <h6>Para Calcular o que deseja deixe em branco um dos campos</h6>
+        <label for="a1">Primeiro Termo (a1)</label>
+        <input type="number" id="a1">
+        <label for="q">Razão (q)</label>
+        <input type="number" id="raz">
+        <label for="n">Número de Termos (n)</label>
+        <input type="number" id="posterm">
+        <label for="sn">Resultado da PG (an)</label>
+        <input type="number" id="respa">
+        
+        <button onclick="calcular()">Calcular</button>
+        <div id="res"></div>
+        <div id="res1"></div>
+        <div id="res2"></div>
+        <div id="res3"></div>
+        <div id="res4"></div>
+        <div id="res5"></div>
+        <div id="res6"></div>
+
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
