@@ -1,4 +1,4 @@
-# CalculadoraPAePG
+# CalculadoraPAe
 Calculadora feita para calcular as fórmulas de Progressão Aritmética e Progressão Geométrica.
 
 ##
